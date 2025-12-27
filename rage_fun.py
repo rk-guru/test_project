@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
-API_KEY = 'AIzaSyDsRutviDquMkxuPu2Eq8r2F-HktuGraaQ'
+API_KEY = ""
 gemini_model = "gemini-2.5-flash-lite"
 folder = './sample_rag'
 pdf_file = 'The ethylbenzene production.pdf'
